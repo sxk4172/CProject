@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A221DCE91A292FAE00016D0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A221DCE81A292FAE00016D0D /* main.cpp */; };
+		A20478011A29376A00A82C27 /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A20478001A29376A00A82C27 /* clock.cpp */; };
+		A27605361A3BF72900633020 /* personalClock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A27605351A3BF72900633020 /* personalClock.cpp */; };
+		A2BA55581A2C0AD8000F772D /* WaterJug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA55571A2C0AD8000F772D /* WaterJug.cpp */; };
+		A2BA555A1A2C305F000F772D /* lloyd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA55591A2C305F000F772D /* lloyd.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A20478001A29376A00A82C27 /* clock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clock.cpp; sourceTree = "<group>"; };
 		A221DCE51A292FAE00016D0D /* CProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		A221DCE81A292FAE00016D0D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A27605351A3BF72900633020 /* personalClock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = personalClock.cpp; sourceTree = "<group>"; };
+		A289FA981A2CC9B800856889 /* Solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution.h; sourceTree = "<group>"; };
+		A2BA55571A2C0AD8000F772D /* WaterJug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterJug.cpp; sourceTree = "<group>"; };
+		A2BA55591A2C305F000F772D /* lloyd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lloyd.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,11 @@
 		A221DCE71A292FAE00016D0D /* CProject */ = {
 			isa = PBXGroup;
 			children = (
-				A221DCE81A292FAE00016D0D /* main.cpp */,
+				A20478001A29376A00A82C27 /* clock.cpp */,
+				A2BA55571A2C0AD8000F772D /* WaterJug.cpp */,
+				A2BA55591A2C305F000F772D /* lloyd.cpp */,
+				A289FA981A2CC9B800856889 /* Solution.h */,
+				A27605351A3BF72900633020 /* personalClock.cpp */,
 			);
 			path = CProject;
 			sourceTree = "<group>";
@@ -118,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A221DCE91A292FAE00016D0D /* main.cpp in Sources */,
+				A2BA55581A2C0AD8000F772D /* WaterJug.cpp in Sources */,
+				A2BA555A1A2C305F000F772D /* lloyd.cpp in Sources */,
+				A27605361A3BF72900633020 /* personalClock.cpp in Sources */,
+				A20478011A29376A00A82C27 /* clock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +246,7 @@
 				A221DCEE1A292FAE00016D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
